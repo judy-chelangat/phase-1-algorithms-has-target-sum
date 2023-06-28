@@ -1,5 +1,12 @@
 function hasTargetSum(array, target) {
   // Write your algorithm here
+  for (const num of array) {
+   if( array[0] +array[1] === target)
+   {
+    return true
+   }
+  }
+
 }
 
 /* 
@@ -8,6 +15,11 @@ function hasTargetSum(array, target) {
 
 /* 
   Add your pseudocode here
+  a function called hasTargetSum that receives two arguments:
+
+an array of integers
+a target integer
+The function should return true if any pair of numbers in the array adds up to the target number.
 */
 
 /*
